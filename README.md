@@ -1,26 +1,59 @@
-<h1 align="center">React Admin Dashboard</h1>
+# Admin Dashboard
 
-![Demo App](/public/screenshot-for-readme-1.png)
-![Demo App](/public/screenshot-for-readme-2.png)
-![Demo App](/public/screenshot-for-readme-3.png)
+## Overview
 
-[Video Tutorial on Youtube](https://youtu.be/gK0v_d91epk)
+Admin Dashboard is a modern, responsive web application designed to provide a powerful interface for managing data, users, and settings. This project is built with performance, scalability, and ease of customization in mind.
 
-### This is a free admin dashboard ui kit built with:
+## Features
 
--   React
--   Tailwind CSS
--   Recharts
--   Framer Motion
+- Responsive design for desktop and mobile
+- Dynamic data visualization with charts and graphs
+- User management with roles and permissions
+- Real-time updates (via WebSockets or polling)
+- Customizable settings and configuration
+- Integration-ready with backend APIs
+- Built with React and modern frontend tools like Vite
 
-It is completely responsive and can be used for any type of web application.
+## Technology Stack
 
-### Run this app locally
+- Frontend: React, Vite, JavaScript/TypeScript
+- Styling: CSS / Tailwind CSS (optional)
+- Charts: Recharts or similar
+- Build tool: Vite
+- Package manager: Yarn or npm
 
-```shell
+## Installation
+
+### Prerequisites
+
+- Node.js (version XX or later)
+- Yarn or npm
+
+### Steps
+
+1. Clone the repository:
+
+```bash
+git clone <your-repository-url>
+cd <your-project-directory>
+
+	2.	Install dependencies:
+
+yarn install
+# or
 npm install
-```
 
-```shell
-npm run start
+	3.	Start development server:
+
+yarn dev
+# or
+npm run dev
+
+Build for Production
+
+To build the app for production:
+
+yarn build
+# or
+npm run build
 ```
