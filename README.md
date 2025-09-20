@@ -34,25 +34,25 @@ Admin Dashboard is a modern, responsive web application designed to provide a po
 1. Clone the repository:
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/shinobiwanshin/The-React-Dashboard-.git
 cd <your-project-directory>
-
+```
 	2.	Install dependencies:
-
+```bash
 yarn install
 # or
 npm install
-
+```
 	3.	Start development server:
-
+```bash
 yarn dev
 # or
 npm run dev
-
+```
 Build for Production
 
 To build the app for production:
-
+```bash
 yarn build
 # or
 npm run build
